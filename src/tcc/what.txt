@@ -1,0 +1,1624 @@
+In file included from tccglue.h:13:0,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/mm.h:97:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void kmem_dump_my_view();
+ ^
+In file included from /mnt/hgfs/nau_test/include/nautilus/vc.h:31:0,
+                 from /mnt/hgfs/nau_test/include/nautilus/nautilus.h:31,
+                 from /mnt/hgfs/nau_test/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/dev/kbd.h:105:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int kbd_reset();
+ ^
+/mnt/hgfs/nau_test/include/dev/kbd.h:106:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int kbd_deinit();
+ ^
+In file included from /mnt/hgfs/nau_test/include/nautilus/nautilus.h:31:0,
+                 from /mnt/hgfs/nau_test/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/vc.h:49:8: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ struct nk_virtual_console * nk_get_cur_vc();
+        ^
+/mnt/hgfs/nau_test/include/nautilus/vc.h:86:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int nk_vc_getchar();
+ ^
+In file included from tccglue.h:17:0,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/fs.h:76:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int nk_fs_init();
+ ^
+/mnt/hgfs/nau_test/include/nautilus/fs.h:77:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int nk_fs_deinit();
+ ^
+/mnt/hgfs/nau_test/include/nautilus/fs.h:84:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void nk_fs_dump_filesystems();
+ ^
+/mnt/hgfs/nau_test/include/nautilus/fs.h:85:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void nk_fs_dump_files();
+ ^
+In file included from /mnt/hgfs/nau_test/include/nautilus/thread.h:35:0,
+                 from /mnt/hgfs/nau_test/include/acpi/platform/acnautilus.h:57,
+                 from tccglue.h:18,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/scheduler.h:136:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void    nk_sched_sleep();
+ ^
+/mnt/hgfs/nau_test/include/nautilus/scheduler.h:144:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void    nk_sched_exit();
+ ^
+/mnt/hgfs/nau_test/include/nautilus/scheduler.h:147:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void    nk_sched_reap();
+ ^
+/mnt/hgfs/nau_test/include/nautilus/scheduler.h:150:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ uint64_t nk_sched_get_realtime();
+ ^
+In file included from /mnt/hgfs/nau_test/include/acpi/platform/acnautilus.h:57:0,
+                 from tccglue.h:18,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/thread.h:82:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void nk_yield();
+ ^
+In file included from tccglue.h:18:0,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/acpi/platform/acnautilus.h:51:37: warning: "ACPI_BINARY_SEMAPHORE" is not defined [-Wundef]
+ #define ACPI_MUTEX_TYPE             ACPI_BINARY_SEMAPHORE
+                                     ^
+/mnt/hgfs/nau_test/include/acpi/actypes.h:242:6: note: in expansion of macro ‘ACPI_MUTEX_TYPE’
+ #if (ACPI_MUTEX_TYPE == ACPI_BINARY_SEMAPHORE)
+      ^
+In file included from /mnt/hgfs/nau_test/include/acpi/platform/acnautilus.h:77:0,
+                 from tccglue.h:18,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/acpi/actypes.h:242:25: warning: "ACPI_BINARY_SEMAPHORE" is not defined [-Wundef]
+ #if (ACPI_MUTEX_TYPE == ACPI_BINARY_SEMAPHORE)
+                         ^
+In file included from tcc.h:32:0,
+                 from tccglue.c:9:
+tccglue.h:36:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef int (*main_func)() ;
+ ^
+tccglue.h:39:1: error: stray ‘\357’ in program
+ void nk_tcc_mem_cpy(void* dest, void* src, size_t n)；
+ ^
+tccglue.h:39:1: error: stray ‘\274’ in program
+tccglue.h:39:1: error: stray ‘\233’ in program
+tccglue.h: In function ‘nk_tcc_mem_cpy’:
+tccglue.h:40:1: error: stray ‘\357’ in program
+ void* nk_tcc_realloc(void* ptr, size_t size)；
+ ^
+tccglue.h:40:1: error: stray ‘\274’ in program
+tccglue.h:40:1: error: stray ‘\233’ in program
+In file included from /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:9:0,
+                 from /usr/include/inttypes.h:27,
+                 from elf.h:25,
+                 from tcc.h:76,
+                 from tccglue.c:9:
+/usr/include/stdint.h:36:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘typedef’
+ typedef signed char  int8_t;
+ ^
+/usr/include/stdint.h:37:20: error: storage class specified for parameter ‘int16_t’
+ typedef short int  int16_t;
+                    ^
+/usr/include/stdint.h:38:15: error: storage class specified for parameter ‘int32_t’
+ typedef int   int32_t;
+               ^
+/usr/include/stdint.h:40:19: error: storage class specified for parameter ‘int64_t’
+ typedef long int  int64_t;
+                   ^
+/usr/include/stdint.h:48:24: error: storage class specified for parameter ‘uint8_t’
+ typedef unsigned char  uint8_t;
+                        ^
+/usr/include/stdint.h:49:28: error: storage class specified for parameter ‘uint16_t’
+ typedef unsigned short int uint16_t;
+                            ^
+/usr/include/stdint.h:51:23: error: storage class specified for parameter ‘uint32_t’
+ typedef unsigned int  uint32_t;
+                       ^
+/usr/include/stdint.h:55:27: error: storage class specified for parameter ‘uint64_t’
+ typedef unsigned long int uint64_t;
+                           ^
+/usr/include/stdint.h:65:22: error: storage class specified for parameter ‘int_least8_t’
+ typedef signed char  int_least8_t;
+                      ^
+/usr/include/stdint.h:66:20: error: storage class specified for parameter ‘int_least16_t’
+ typedef short int  int_least16_t;
+                    ^
+/usr/include/stdint.h:67:15: error: storage class specified for parameter ‘int_least32_t’
+ typedef int   int_least32_t;
+               ^
+/usr/include/stdint.h:69:19: error: storage class specified for parameter ‘int_least64_t’
+ typedef long int  int_least64_t;
+                   ^
+/usr/include/stdint.h:76:24: error: storage class specified for parameter ‘uint_least8_t’
+ typedef unsigned char  uint_least8_t;
+                        ^
+/usr/include/stdint.h:77:28: error: storage class specified for parameter ‘uint_least16_t’
+ typedef unsigned short int uint_least16_t;
+                            ^
+/usr/include/stdint.h:78:23: error: storage class specified for parameter ‘uint_least32_t’
+ typedef unsigned int  uint_least32_t;
+                       ^
+/usr/include/stdint.h:80:27: error: storage class specified for parameter ‘uint_least64_t’
+ typedef unsigned long int uint_least64_t;
+                           ^
+/usr/include/stdint.h:90:22: error: storage class specified for parameter ‘int_fast8_t’
+ typedef signed char  int_fast8_t;
+                      ^
+/usr/include/stdint.h:92:19: error: storage class specified for parameter ‘int_fast16_t’
+ typedef long int  int_fast16_t;
+                   ^
+/usr/include/stdint.h:93:19: error: storage class specified for parameter ‘int_fast32_t’
+ typedef long int  int_fast32_t;
+                   ^
+/usr/include/stdint.h:94:19: error: storage class specified for parameter ‘int_fast64_t’
+ typedef long int  int_fast64_t;
+                   ^
+/usr/include/stdint.h:103:24: error: storage class specified for parameter ‘uint_fast8_t’
+ typedef unsigned char  uint_fast8_t;
+                        ^
+/usr/include/stdint.h:105:27: error: storage class specified for parameter ‘uint_fast16_t’
+ typedef unsigned long int uint_fast16_t;
+                           ^
+/usr/include/stdint.h:106:27: error: storage class specified for parameter ‘uint_fast32_t’
+ typedef unsigned long int uint_fast32_t;
+                           ^
+/usr/include/stdint.h:107:27: error: storage class specified for parameter ‘uint_fast64_t’
+ typedef unsigned long int uint_fast64_t;
+                           ^
+/usr/include/stdint.h:119:19: error: storage class specified for parameter ‘intptr_t’
+ typedef long int  intptr_t;
+                   ^
+/usr/include/stdint.h:122:27: error: storage class specified for parameter ‘uintptr_t’
+ typedef unsigned long int uintptr_t;
+                           ^
+/usr/include/stdint.h:134:19: error: storage class specified for parameter ‘intmax_t’
+ typedef long int  intmax_t;
+                   ^
+/usr/include/stdint.h:135:27: error: storage class specified for parameter ‘uintmax_t’
+ typedef unsigned long int uintmax_t;
+                           ^
+In file included from elf.h:25:0,
+                 from tcc.h:76,
+                 from tccglue.c:9:
+/usr/include/inttypes.h:34:24: error: storage class specified for parameter ‘__gwchar_t’
+ typedef __WCHAR_TYPE__ __gwchar_t;
+                        ^
+/usr/include/inttypes.h:275:5: error: storage class specified for parameter ‘imaxdiv_t’
+   } imaxdiv_t;
+     ^
+/usr/include/inttypes.h:290:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘imaxabs’
+ extern intmax_t imaxabs (intmax_t __n) __THROW __attribute__ ((__const__));
+                 ^
+/usr/include/inttypes.h:293:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘imaxdiv’
+ extern imaxdiv_t imaxdiv (intmax_t __numer, intmax_t __denom)
+                  ^
+/usr/include/inttypes.h:297:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘strtoimax’
+ extern intmax_t strtoimax (const char *__restrict __nptr,
+                 ^
+/usr/include/inttypes.h:301:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘strtoumax’
+ extern uintmax_t strtoumax (const char *__restrict __nptr,
+                  ^
+/usr/include/inttypes.h:305:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstoimax’
+ extern intmax_t wcstoimax (const __gwchar_t *__restrict __nptr,
+                 ^
+/usr/include/inttypes.h:310:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstoumax’
+ extern uintmax_t wcstoumax (const __gwchar_t *__restrict __nptr,
+                  ^
+In file included from tcc.h:76:0,
+                 from tccglue.c:9:
+elf.h:44:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Half’
+ typedef uint16_t Elf32_Half;
+                  ^
+elf.h:45:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Half’
+ typedef uint16_t Elf64_Half;
+                  ^
+elf.h:48:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Word’
+ typedef uint32_t Elf32_Word;
+                  ^
+elf.h:49:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Sword’
+ typedef int32_t  Elf32_Sword;
+                  ^
+elf.h:50:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Word’
+ typedef uint32_t Elf64_Word;
+                  ^
+elf.h:51:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Sword’
+ typedef int32_t  Elf64_Sword;
+                  ^
+elf.h:54:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Xword’
+ typedef uint64_t Elf32_Xword;
+                  ^
+elf.h:55:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Sxword’
+ typedef int64_t  Elf32_Sxword;
+                  ^
+elf.h:56:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Xword’
+ typedef uint64_t Elf64_Xword;
+                  ^
+elf.h:57:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Sxword’
+ typedef int64_t  Elf64_Sxword;
+                  ^
+elf.h:60:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Addr’
+ typedef uint32_t Elf32_Addr;
+                  ^
+elf.h:61:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Addr’
+ typedef uint64_t Elf64_Addr;
+                  ^
+elf.h:64:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Off’
+ typedef uint32_t Elf32_Off;
+                  ^
+elf.h:65:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Off’
+ typedef uint64_t Elf64_Off;
+                  ^
+elf.h:68:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Section’
+ typedef uint16_t Elf32_Section;
+                  ^
+elf.h:69:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Section’
+ typedef uint16_t Elf64_Section;
+                  ^
+elf.h:72:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf32_Symndx’
+ typedef uint32_t Elf32_Symndx;
+                  ^
+elf.h:73:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘Elf64_Symndx’
+ typedef uint64_t Elf64_Symndx;
+                  ^
+elf.h:83:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_type;                 /* Object file type */
+   ^
+elf.h:84:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_machine;              /* Architecture */
+   ^
+elf.h:85:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    e_version;              /* Object file version */
+   ^
+elf.h:86:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    e_entry;                /* Entry point virtual address */
+   ^
+elf.h:87:3: error: unknown type name ‘Elf32_Off’
+   Elf32_Off     e_phoff;                /* Program header table file offset */
+   ^
+elf.h:88:3: error: unknown type name ‘Elf32_Off’
+   Elf32_Off     e_shoff;                /* Section header table file offset */
+   ^
+elf.h:89:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    e_flags;                /* Processor-specific flags */
+   ^
+elf.h:90:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_ehsize;               /* ELF header size in bytes */
+   ^
+elf.h:91:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_phentsize;            /* Program header table entry size */
+   ^
+elf.h:92:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_phnum;                /* Program header table entry count */
+   ^
+elf.h:93:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_shentsize;            /* Section header table entry size */
+   ^
+elf.h:94:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_shnum;                /* Section header table entry count */
+   ^
+elf.h:95:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    e_shstrndx;             /* Section header string table index */
+   ^
+elf.h:96:3: error: storage class specified for parameter ‘Elf32_Ehdr’
+ } Elf32_Ehdr;
+   ^
+elf.h:101:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_type;                 /* Object file type */
+   ^
+elf.h:102:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_machine;              /* Architecture */
+   ^
+elf.h:103:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    e_version;              /* Object file version */
+   ^
+elf.h:104:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    e_entry;                /* Entry point virtual address */
+   ^
+elf.h:105:3: error: unknown type name ‘Elf64_Off’
+   Elf64_Off     e_phoff;                /* Program header table file offset */
+   ^
+elf.h:106:3: error: unknown type name ‘Elf64_Off’
+   Elf64_Off     e_shoff;                /* Section header table file offset */
+   ^
+elf.h:107:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    e_flags;                /* Processor-specific flags */
+   ^
+elf.h:108:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_ehsize;               /* ELF header size in bytes */
+   ^
+elf.h:109:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_phentsize;            /* Program header table entry size */
+   ^
+elf.h:110:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_phnum;                /* Program header table entry count */
+   ^
+elf.h:111:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_shentsize;            /* Section header table entry size */
+   ^
+elf.h:112:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_shnum;                /* Section header table entry count */
+   ^
+elf.h:113:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    e_shstrndx;             /* Section header string table index */
+   ^
+elf.h:114:3: error: storage class specified for parameter ‘Elf64_Ehdr’
+ } Elf64_Ehdr;
+   ^
+elf.h:271:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_name;                /* Section name (string tbl index) */
+   ^
+elf.h:272:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_type;                /* Section type */
+   ^
+elf.h:273:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_flags;               /* Section flags */
+   ^
+elf.h:274:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    sh_addr;                /* Section virtual addr at execution */
+   ^
+elf.h:275:3: error: unknown type name ‘Elf32_Off’
+   Elf32_Off     sh_offset;              /* Section file offset */
+   ^
+elf.h:276:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_size;                /* Section size in bytes */
+   ^
+elf.h:277:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_link;                /* Link to another section */
+   ^
+elf.h:278:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_info;                /* Additional section information */
+   ^
+elf.h:279:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_addralign;           /* Section alignment */
+   ^
+elf.h:280:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    sh_entsize;             /* Entry size if section holds table */
+   ^
+elf.h:281:3: error: storage class specified for parameter ‘Elf32_Shdr’
+ } Elf32_Shdr;
+   ^
+elf.h:285:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    sh_name;                /* Section name (string tbl index) */
+   ^
+elf.h:286:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    sh_type;                /* Section type */
+   ^
+elf.h:287:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   sh_flags;               /* Section flags */
+   ^
+elf.h:288:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    sh_addr;                /* Section virtual addr at execution */
+   ^
+elf.h:289:3: error: unknown type name ‘Elf64_Off’
+   Elf64_Off     sh_offset;              /* Section file offset */
+   ^
+elf.h:290:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   sh_size;                /* Section size in bytes */
+   ^
+elf.h:291:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    sh_link;                /* Link to another section */
+   ^
+elf.h:292:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    sh_info;                /* Additional section information */
+   ^
+elf.h:293:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   sh_addralign;           /* Section alignment */
+   ^
+elf.h:294:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   sh_entsize;             /* Entry size if section holds table */
+   ^
+elf.h:295:3: error: storage class specified for parameter ‘Elf64_Shdr’
+ } Elf64_Shdr;
+   ^
+elf.h:366:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    st_name;                /* Symbol name (string tbl index) */
+   ^
+elf.h:367:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    st_value;               /* Symbol value */
+   ^
+elf.h:368:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    st_size;                /* Symbol size */
+   ^
+elf.h:371:3: error: unknown type name ‘Elf32_Section’
+   Elf32_Section st_shndx;               /* Section index */
+   ^
+elf.h:372:3: error: storage class specified for parameter ‘Elf32_Sym’
+ } Elf32_Sym;
+   ^
+elf.h:376:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    st_name;                /* Symbol name (string tbl index) */
+   ^
+elf.h:379:3: error: unknown type name ‘Elf64_Section’
+   Elf64_Section st_shndx;               /* Section index */
+   ^
+elf.h:380:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    st_value;               /* Symbol value */
+   ^
+elf.h:381:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   st_size;                /* Symbol size */
+   ^
+elf.h:382:3: error: storage class specified for parameter ‘Elf64_Sym’
+ } Elf64_Sym;
+   ^
+elf.h:389:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half si_boundto;                /* Direct bindings, symbol bound to */
+   ^
+elf.h:390:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half si_flags;                  /* Per symbol flags */
+   ^
+elf.h:391:3: error: storage class specified for parameter ‘Elf32_Syminfo’
+ } Elf32_Syminfo;
+   ^
+elf.h:395:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half si_boundto;                /* Direct bindings, symbol bound to */
+   ^
+elf.h:396:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half si_flags;                  /* Per symbol flags */
+   ^
+elf.h:397:3: error: storage class specified for parameter ‘Elf64_Syminfo’
+ } Elf64_Syminfo;
+   ^
+elf.h:482:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    r_offset;               /* Address */
+   ^
+elf.h:483:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    r_info;                 /* Relocation type and symbol index */
+   ^
+elf.h:484:3: error: storage class specified for parameter ‘Elf32_Rel’
+ } Elf32_Rel;
+   ^
+elf.h:493:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    r_offset;               /* Address */
+   ^
+elf.h:494:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   r_info;                 /* Relocation type and symbol index */
+   ^
+elf.h:495:3: error: storage class specified for parameter ‘Elf64_Rel’
+ } Elf64_Rel;
+   ^
+elf.h:501:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    r_offset;               /* Address */
+   ^
+elf.h:502:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    r_info;                 /* Relocation type and symbol index */
+   ^
+elf.h:503:3: error: unknown type name ‘Elf32_Sword’
+   Elf32_Sword   r_addend;               /* Addend */
+   ^
+elf.h:504:3: error: storage class specified for parameter ‘Elf32_Rela’
+ } Elf32_Rela;
+   ^
+elf.h:508:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    r_offset;               /* Address */
+   ^
+elf.h:509:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   r_info;                 /* Relocation type and symbol index */
+   ^
+elf.h:510:3: error: unknown type name ‘Elf64_Sxword’
+   Elf64_Sxword  r_addend;               /* Addend */
+   ^
+elf.h:511:3: error: storage class specified for parameter ‘Elf64_Rela’
+ } Elf64_Rela;
+   ^
+elf.h:527:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    p_type;                 /* Segment type */
+   ^
+elf.h:528:3: error: unknown type name ‘Elf32_Off’
+   Elf32_Off     p_offset;               /* Segment file offset */
+   ^
+elf.h:529:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    p_vaddr;                /* Segment virtual address */
+   ^
+elf.h:530:3: error: unknown type name ‘Elf32_Addr’
+   Elf32_Addr    p_paddr;                /* Segment physical address */
+   ^
+elf.h:531:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    p_filesz;               /* Segment size in file */
+   ^
+elf.h:532:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    p_memsz;                /* Segment size in memory */
+   ^
+elf.h:533:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    p_flags;                /* Segment flags */
+   ^
+elf.h:534:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    p_align;                /* Segment alignment */
+   ^
+elf.h:535:3: error: storage class specified for parameter ‘Elf32_Phdr’
+ } Elf32_Phdr;
+   ^
+elf.h:539:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    p_type;                 /* Segment type */
+   ^
+elf.h:540:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    p_flags;                /* Segment flags */
+   ^
+elf.h:541:3: error: unknown type name ‘Elf64_Off’
+   Elf64_Off     p_offset;               /* Segment file offset */
+   ^
+elf.h:542:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    p_vaddr;                /* Segment virtual address */
+   ^
+elf.h:543:3: error: unknown type name ‘Elf64_Addr’
+   Elf64_Addr    p_paddr;                /* Segment physical address */
+   ^
+elf.h:544:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   p_filesz;               /* Segment size in file */
+   ^
+elf.h:545:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   p_memsz;                /* Segment size in memory */
+   ^
+elf.h:546:3: error: unknown type name ‘Elf64_Xword’
+   Elf64_Xword   p_align;                /* Segment alignment */
+   ^
+elf.h:547:3: error: storage class specified for parameter ‘Elf64_Phdr’
+ } Elf64_Phdr;
+   ^
+elf.h:596:3: error: unknown type name ‘Elf32_Sword’
+   Elf32_Sword   d_tag;                  /* Dynamic entry type */
+   ^
+elf.h:599:7: error: unknown type name ‘Elf32_Word’
+       Elf32_Word d_val;                 /* Integer value */
+       ^
+elf.h:600:7: error: unknown type name ‘Elf32_Addr’
+       Elf32_Addr d_ptr;                 /* Address value */
+       ^
+elf.h:602:3: error: storage class specified for parameter ‘Elf32_Dyn’
+ } Elf32_Dyn;
+   ^
+elf.h:606:3: error: unknown type name ‘Elf64_Sxword’
+   Elf64_Sxword  d_tag;                  /* Dynamic entry type */
+   ^
+elf.h:609:7: error: unknown type name ‘Elf64_Xword’
+       Elf64_Xword d_val;                /* Integer value */
+       ^
+elf.h:610:7: error: unknown type name ‘Elf64_Addr’
+       Elf64_Addr d_ptr;                 /* Address value */
+       ^
+elf.h:612:3: error: storage class specified for parameter ‘Elf64_Dyn’
+ } Elf64_Dyn;
+   ^
+elf.h:707:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vd_version;             /* Version revision */
+   ^
+elf.h:708:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vd_flags;               /* Version information */
+   ^
+elf.h:709:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vd_ndx;                 /* Version Index */
+   ^
+elf.h:710:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vd_cnt;                 /* Number of associated aux entries */
+   ^
+elf.h:711:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vd_hash;                /* Version name hash value */
+   ^
+elf.h:712:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vd_aux;                 /* Offset in bytes to verdaux array */
+   ^
+elf.h:713:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vd_next;                /* Offset in bytes to next verdef
+   ^
+elf.h:715:3: error: storage class specified for parameter ‘Elf32_Verdef’
+ } Elf32_Verdef;
+   ^
+elf.h:719:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vd_version;             /* Version revision */
+   ^
+elf.h:720:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vd_flags;               /* Version information */
+   ^
+elf.h:721:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vd_ndx;                 /* Version Index */
+   ^
+elf.h:722:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vd_cnt;                 /* Number of associated aux entries */
+   ^
+elf.h:723:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vd_hash;                /* Version name hash value */
+   ^
+elf.h:724:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vd_aux;                 /* Offset in bytes to verdaux array */
+   ^
+elf.h:725:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vd_next;                /* Offset in bytes to next verdef
+   ^
+elf.h:727:3: error: storage class specified for parameter ‘Elf64_Verdef’
+ } Elf64_Verdef;
+   ^
+elf.h:743:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vda_name;               /* Version or dependency names */
+   ^
+elf.h:744:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vda_next;               /* Offset in bytes to next verdaux
+   ^
+elf.h:746:3: error: storage class specified for parameter ‘Elf32_Verdaux’
+ } Elf32_Verdaux;
+   ^
+elf.h:750:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vda_name;               /* Version or dependency names */
+   ^
+elf.h:751:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vda_next;               /* Offset in bytes to next verdaux
+   ^
+elf.h:753:3: error: storage class specified for parameter ‘Elf64_Verdaux’
+ } Elf64_Verdaux;
+   ^
+elf.h:760:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vn_version;             /* Version of structure */
+   ^
+elf.h:761:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vn_cnt;                 /* Number of associated aux entries */
+   ^
+elf.h:762:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vn_file;                /* Offset of filename for this
+   ^
+elf.h:764:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vn_aux;                 /* Offset in bytes to vernaux array */
+   ^
+elf.h:765:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vn_next;                /* Offset in bytes to next verneed
+   ^
+elf.h:767:3: error: storage class specified for parameter ‘Elf32_Verneed’
+ } Elf32_Verneed;
+   ^
+elf.h:771:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vn_version;             /* Version of structure */
+   ^
+elf.h:772:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vn_cnt;                 /* Number of associated aux entries */
+   ^
+elf.h:773:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vn_file;                /* Offset of filename for this
+   ^
+elf.h:775:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vn_aux;                 /* Offset in bytes to vernaux array */
+   ^
+elf.h:776:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vn_next;                /* Offset in bytes to next verneed
+   ^
+elf.h:778:3: error: storage class specified for parameter ‘Elf64_Verneed’
+ } Elf64_Verneed;
+   ^
+elf.h:790:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vna_hash;               /* Hash value of dependency name */
+   ^
+elf.h:791:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vna_flags;              /* Dependency specific information */
+   ^
+elf.h:792:3: error: unknown type name ‘Elf32_Half’
+   Elf32_Half    vna_other;              /* Unused */
+   ^
+elf.h:793:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vna_name;               /* Dependency name string offset */
+   ^
+elf.h:794:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    vna_next;               /* Offset in bytes to next vernaux
+   ^
+elf.h:796:3: error: storage class specified for parameter ‘Elf32_Vernaux’
+ } Elf32_Vernaux;
+   ^
+elf.h:800:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vna_hash;               /* Hash value of dependency name */
+   ^
+elf.h:801:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vna_flags;              /* Dependency specific information */
+   ^
+elf.h:802:3: error: unknown type name ‘Elf64_Half’
+   Elf64_Half    vna_other;              /* Unused */
+   ^
+elf.h:803:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vna_name;               /* Dependency name string offset */
+   ^
+elf.h:804:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word    vna_next;               /* Offset in bytes to next vernaux
+   ^
+elf.h:806:3: error: storage class specified for parameter ‘Elf64_Vernaux’
+ } Elf64_Vernaux;
+   ^
+elf.h:831:3: error: storage class specified for parameter ‘Elf32_auxv_t’
+ } Elf32_auxv_t;
+   ^
+elf.h:842:3: error: storage class specified for parameter ‘Elf64_auxv_t’
+ } Elf64_auxv_t;
+   ^
+elf.h:877:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word n_namesz;                  /* Length of the note's name.  */
+   ^
+elf.h:878:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word n_descsz;                  /* Length of the note's descriptor.  */
+   ^
+elf.h:879:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word n_type;                    /* Type of the note.  */
+   ^
+elf.h:880:3: error: storage class specified for parameter ‘Elf32_Nhdr’
+ } Elf32_Nhdr;
+   ^
+elf.h:884:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word n_namesz;                  /* Length of the note's name.  */
+   ^
+elf.h:885:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word n_descsz;                  /* Length of the note's descriptor.  */
+   ^
+elf.h:886:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word n_type;                    /* Type of the note.  */
+   ^
+elf.h:887:3: error: storage class specified for parameter ‘Elf64_Nhdr’
+ } Elf64_Nhdr;
+   ^
+elf.h:1202:7: error: unknown type name ‘Elf32_Word’
+       Elf32_Word gt_current_g_value;    /* -G value used for compilation */
+       ^
+elf.h:1203:7: error: unknown type name ‘Elf32_Word’
+       Elf32_Word gt_unused;             /* Not used */
+       ^
+elf.h:1207:7: error: unknown type name ‘Elf32_Word’
+       Elf32_Word gt_g_value;            /* If this value were used for -G */
+       ^
+elf.h:1208:7: error: unknown type name ‘Elf32_Word’
+       Elf32_Word gt_bytes;              /* This many bytes would be used */
+       ^
+elf.h:1210:3: error: storage class specified for parameter ‘Elf32_gptab’
+ } Elf32_gptab;
+   ^
+elf.h:1216:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    ri_gprmask;             /* General registers used */
+   ^
+elf.h:1217:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word    ri_cprmask[4];          /* Coprocessor registers used */
+   ^
+elf.h:1218:3: error: unknown type name ‘Elf32_Sword’
+   Elf32_Sword   ri_gp_value;            /* $gp register value */
+   ^
+elf.h:1219:3: error: storage class specified for parameter ‘Elf32_RegInfo’
+ } Elf32_RegInfo;
+   ^
+elf.h:1228:3: error: unknown type name ‘Elf32_Section’
+   Elf32_Section section;        /* Section header index of section affected,
+   ^
+elf.h:1230:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word info;              /* Kind-specific information.  */
+   ^
+elf.h:1231:3: error: storage class specified for parameter ‘Elf_Options’
+ } Elf_Options;
+   ^
+elf.h:1276:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word hwp_flags1;        /* Extra flags.  */
+   ^
+elf.h:1277:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word hwp_flags2;        /* Extra flags.  */
+   ^
+elf.h:1278:3: error: storage class specified for parameter ‘Elf_Options_Hw’
+ } Elf_Options_Hw;
+   ^
+elf.h:1415:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word l_name;            /* Name (string table index) */
+   ^
+elf.h:1416:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word l_time_stamp;      /* Timestamp */
+   ^
+elf.h:1417:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word l_checksum;        /* Checksum */
+   ^
+elf.h:1418:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word l_version;         /* Interface version */
+   ^
+elf.h:1419:3: error: unknown type name ‘Elf32_Word’
+   Elf32_Word l_flags;           /* Flags */
+   ^
+elf.h:1420:3: error: storage class specified for parameter ‘Elf32_Lib’
+ } Elf32_Lib;
+   ^
+elf.h:1424:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word l_name;            /* Name (string table index) */
+   ^
+elf.h:1425:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word l_time_stamp;      /* Timestamp */
+   ^
+elf.h:1426:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word l_checksum;        /* Checksum */
+   ^
+elf.h:1427:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word l_version;         /* Interface version */
+   ^
+elf.h:1428:3: error: unknown type name ‘Elf64_Word’
+   Elf64_Word l_flags;           /* Flags */
+   ^
+elf.h:1429:3: error: storage class specified for parameter ‘Elf64_Lib’
+ } Elf64_Lib;
+   ^
+elf.h:1444:9: error: unknown type name ‘Elf32_Addr’
+ typedef Elf32_Addr Elf32_Conflict;
+         ^
+elf.h:1444:20: error: storage class specified for parameter ‘Elf32_Conflict’
+ typedef Elf32_Addr Elf32_Conflict;
+                    ^
+In file included from tcc.h:98:0,
+                 from tccglue.c:9:
+stab.h:9:1: warning: empty declaration
+ enum __stab_debug_code
+ ^
+In file included from tcc.h:99:0,
+                 from tccglue.c:9:
+libtcc.h:16:1: warning: empty declaration
+ struct TCCState;
+ ^
+libtcc.h:18:25: error: storage class specified for parameter ‘TCCState’
+ typedef struct TCCState TCCState;
+                         ^
+libtcc.h:21:11: error: expected declaration specifiers before ‘TCCState’
+ LIBTCCAPI TCCState *tcc_new(void);
+           ^
+libtcc.h:24:27: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI void tcc_delete(TCCState *s);
+                           ^
+libtcc.h:27:33: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI void tcc_set_lib_path(TCCState *s, const char *path);
+                                 ^
+libtcc.h:30:35: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI void tcc_set_error_func(TCCState *s, void *error_opaque,
+                                   ^
+libtcc.h:34:31: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_set_options(TCCState *s, const char *str);
+                               ^
+libtcc.h:40:36: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_add_include_path(TCCState *s, const char *pathname);
+                                    ^
+libtcc.h:43:39: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_add_sysinclude_path(TCCState *s, const char *pathname);
+                                       ^
+libtcc.h:46:34: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI void tcc_define_symbol(TCCState *s, const char *sym, const char *value);
+                                  ^
+libtcc.h:49:36: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI void tcc_undefine_symbol(TCCState *s, const char *sym);
+                                    ^
+libtcc.h:55:28: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_add_file(TCCState *s, const char *filename);
+                            ^
+libtcc.h:58:34: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_compile_string(TCCState *s, const char *buf);
+                                  ^
+libtcc.h:64:35: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_set_output_type(TCCState *s, int output_type);
+                                   ^
+libtcc.h:72:36: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_add_library_path(TCCState *s, const char *pathname);
+                                    ^
+libtcc.h:75:31: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_add_library(TCCState *s, const char *libraryname);
+                               ^
+libtcc.h:78:30: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_add_symbol(TCCState *s, const char *name, const void *val);
+                              ^
+libtcc.h:82:31: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_output_file(TCCState *s, const char *filename);
+                               ^
+libtcc.h:86:23: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_run(TCCState *s, int argc, char **argv);
+                       ^
+libtcc.h:89:28: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI int tcc_relocate(TCCState *s1, void *ptr);
+                            ^
+libtcc.h:98:32: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ LIBTCCAPI void *tcc_get_symbol(TCCState *s, const char *name);
+                                ^
+In file included from tccglue.c:9:0:
+tcc.h:144:0: warning: "TCC_IS_NATIVE" redefined
+ #  define TCC_IS_NATIVE
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+In file included from tcc.h:236:0,
+                 from tccglue.c:9:
+x86_64-gen.c:48:1: warning: empty declaration
+ enum {
+ ^
+In file included from tccglue.c:9:0:
+tcc.h:269:3: error: storage class specified for parameter ‘TokenSym’
+ } TokenSym;
+   ^
+tcc.h:274:13: error: storage class specified for parameter ‘nwchar_t’
+ typedef int nwchar_t;
+             ^
+tcc.h:282:3: error: storage class specified for parameter ‘CString’
+ } CString;
+   ^
+tcc.h:288:3: error: storage class specified for parameter ‘CType’
+ } CType;
+   ^
+tcc.h:303:3: error: storage class specified for parameter ‘CValue’
+ } CValue;
+   ^
+tcc.h:307:5: error: expected specifier-qualifier-list before ‘CType’
+     CType type;      /* type */
+     ^
+tcc.h:313:3: error: storage class specified for parameter ‘SValue’
+ } SValue;
+   ^
+tcc.h:324:5: error: expected specifier-qualifier-list before ‘CType’
+     CType type;    /* associated type */
+     ^
+tcc.h:331:3: error: storage class specified for parameter ‘Sym’
+ } Sym;
+   ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:354:5: note: in expansion of macro ‘addr_t’
+     addr_t sh_addr;          /* address at which the section is relocated */
+     ^
+In file included from tccglue.c:9:0:
+tcc.h:362:3: error: storage class specified for parameter ‘Section’
+ } Section;
+   ^
+tcc.h:368:3: error: storage class specified for parameter ‘DLLReference’
+ } DLLReference;
+   ^
+tcc.h:384:3: error: storage class specified for parameter ‘AttributeDef’
+ } AttributeDef;
+   ^
+tcc.h:431:5: error: expected specifier-qualifier-list before ‘uint8_t’
+     uint8_t *buf_ptr;
+     ^
+tcc.h:441:3: error: storage class specified for parameter ‘BufferedFile’
+ } BufferedFile;
+   ^
+tcc.h:452:5: error: expected specifier-qualifier-list before ‘CValue’
+     CValue tokc;
+     ^
+tcc.h:453:3: error: storage class specified for parameter ‘ParseState’
+ } ParseState;
+   ^
+tcc.h:461:3: error: storage class specified for parameter ‘TokenString’
+ } TokenString;
+   ^
+tcc.h:466:5: error: expected specifier-qualifier-list before ‘Sym’
+     Sym *sym;
+     ^
+tcc.h:468:3: error: storage class specified for parameter ‘InlineFunc’
+ } InlineFunc;
+   ^
+tcc.h:476:3: error: storage class specified for parameter ‘CachedInclude’
+ } CachedInclude;
+   ^
+tcc.h:482:5: error: expected specifier-qualifier-list before ‘uint32_t’
+     uint32_t v;
+     ^
+tcc.h:484:3: error: storage class specified for parameter ‘ExprValue’
+ } ExprValue;
+   ^
+tcc.h:491:5: error: expected specifier-qualifier-list before ‘SValue’
+     SValue *vt; /* C value of the expression */
+     ^
+tcc.h:499:3: error: storage class specified for parameter ‘ASMOperand’
+ } ASMOperand;
+   ^
+tcc.h:502:1: warning: empty declaration
+ struct sym_attr {
+ ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:547:5: note: in expansion of macro ‘addr_t’
+     addr_t text_addr; /* address of text section */
+     ^
+In file included from tccglue.c:9:0:
+tcc.h:560:5: error: expected specifier-qualifier-list before ‘DLLReference’
+     DLLReference **loaded_dlls;
+     ^
+tcc.h:509:1: warning: empty declaration
+ struct TCCState {
+ ^
+tcc.h:900:1: warning: empty declaration
+ enum tcc_token {
+ ^
+In file included from tccglue.c:9:0:
+tcc.h:920:14: error: storage class specified for parameter ‘strtof’
+ extern float strtof (const char *__nptr, char **__endptr);
+              ^
+tcc.h:921:20: error: storage class specified for parameter ‘strtold’
+ extern long double strtold (const char *__nptr, char **__endptr);
+                    ^
+tcc.h:942:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+tcc.h:947:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+tcc.h:952:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+tcc.h:957:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+tcc.h:962:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+tcc.h:983:13: error: storage class specified for parameter ‘gnu_ext’
+ ST_DATA int gnu_ext;
+             ^
+tcc.h:985:13: error: storage class specified for parameter ‘tcc_ext’
+ ST_DATA int tcc_ext;
+             ^
+tcc.h:987:26: error: storage class specified for parameter ‘tcc_state’
+ ST_DATA struct TCCState *tcc_state;
+                          ^
+tcc.h:1022:24: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void cstr_ccat(CString *cstr, int ch);
+                        ^
+tcc.h:1023:23: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void cstr_cat(CString *cstr, const char *str);
+                       ^
+tcc.h:1024:25: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void cstr_wccat(CString *cstr, int ch);
+                         ^
+tcc.h:1025:23: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void cstr_new(CString *cstr);
+                       ^
+tcc.h:1026:24: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void cstr_free(CString *cstr);
+                        ^
+tcc.h:1027:25: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void cstr_reset(CString *cstr);
+                         ^
+tcc.h:1029:9: error: expected declaration specifiers before ‘Section’
+ ST_FUNC Section *new_section(TCCState *s1, const char *name, int sh_type, int sh_flags);
+         ^
+tcc.h:1030:30: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void section_realloc(Section *sec, unsigned long new_size);
+                              ^
+tcc.h:1031:31: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void *section_ptr_add(Section *sec, unsigned long size);
+                               ^
+tcc.h:1032:30: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void section_reserve(Section *sec, unsigned long size);
+                              ^
+tcc.h:1033:9: error: expected declaration specifiers before ‘Section’
+ ST_FUNC Section *find_section(TCCState *s1, const char *name);
+         ^
+tcc.h:1035:30: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void put_extern_sym2(Sym *sym, Section *section, addr_t value, unsigned long size, int can_add_underscore);
+                              ^
+tcc.h:1035:40: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void put_extern_sym2(Sym *sym, Section *section, addr_t value, unsigned long size, int can_add_underscore);
+                                        ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:1035:58: note: in expansion of macro ‘addr_t’
+ ST_FUNC void put_extern_sym2(Sym *sym, Section *section, addr_t value, unsigned long size, int can_add_underscore);
+                                                          ^
+In file included from tccglue.c:9:0:
+tcc.h:1036:29: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void put_extern_sym(Sym *sym, Section *section, addr_t value, unsigned long size);
+                             ^
+tcc.h:1036:39: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void put_extern_sym(Sym *sym, Section *section, addr_t value, unsigned long size);
+                                       ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:1036:57: note: in expansion of macro ‘addr_t’
+ ST_FUNC void put_extern_sym(Sym *sym, Section *section, addr_t value, unsigned long size);
+                                                         ^
+In file included from tccglue.c:9:0:
+tcc.h:1037:21: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void greloc(Section *s, Sym *sym, unsigned long offset, int type);
+                     ^
+tcc.h:1037:33: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void greloc(Section *s, Sym *sym, unsigned long offset, int type);
+                                 ^
+tcc.h:1039:23: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_INLN void sym_free(Sym *sym);
+                       ^
+tcc.h:1040:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *sym_push2(Sym **ps, int v, int t, long c);
+         ^
+tcc.h:1041:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *sym_find2(Sym *s, int v);
+         ^
+tcc.h:1042:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *sym_push(int v, CType *type, int r, int c);
+         ^
+tcc.h:1043:22: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void sym_pop(Sym **ptop, Sym *b);
+                      ^
+tcc.h:1043:34: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void sym_pop(Sym **ptop, Sym *b);
+                                  ^
+tcc.h:1044:9: error: expected declaration specifiers before ‘Sym’
+ ST_INLN Sym *struct_find(int v);
+         ^
+tcc.h:1045:9: error: expected declaration specifiers before ‘Sym’
+ ST_INLN Sym *sym_find(int v);
+         ^
+tcc.h:1046:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *global_identifier_push(int v, int t, int c);
+         ^
+tcc.h:1048:26: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void tcc_open_bf(TCCState *s1, const char *filename, int initlen);
+                          ^
+tcc.h:1049:22: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_open(TCCState *s1, const char *filename);
+                      ^
+tcc.h:1052:35: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_add_file_internal(TCCState *s1, const char *filename, int flags);
+                                   ^
+tcc.h:1053:25: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_add_crt(TCCState *s, const char *filename);
+                         ^
+tcc.h:1054:25: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_add_dll(TCCState *s, const char *filename, int flags);
+                         ^
+tcc.h:1056:31: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ PUB_FUNC void tcc_print_stats(TCCState *s, int64_t total_time);
+                               ^
+tcc.h:1056:44: error: expected declaration specifiers or ‘...’ before ‘int64_t’
+ PUB_FUNC void tcc_print_stats(TCCState *s, int64_t total_time);
+                                            ^
+tcc.h:1057:29: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ PUB_FUNC int tcc_parse_args(TCCState *s, int argc, char **argv);
+                             ^
+tcc.h:1061:30: error: storage class specified for parameter ‘file’
+ ST_DATA struct BufferedFile *file;
+                              ^
+tcc.h:1062:13: error: storage class specified for parameter ‘ch’
+ ST_DATA int ch, tok;
+             ^
+tcc.h:1062:17: error: storage class specified for parameter ‘tok’
+ ST_DATA int ch, tok;
+                 ^
+tcc.h:1063:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘tokc’
+ ST_DATA CValue tokc;
+                ^
+tcc.h:1064:20: error: storage class specified for parameter ‘macro_ptr’
+ ST_DATA const int *macro_ptr;
+                    ^
+tcc.h:1065:13: error: storage class specified for parameter ‘parse_flags’
+ ST_DATA int parse_flags;
+             ^
+tcc.h:1066:13: error: storage class specified for parameter ‘tok_flags’
+ ST_DATA int tok_flags;
+             ^
+tcc.h:1067:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘tokcstr’
+ ST_DATA CString tokcstr; /* current parsed string, if any */
+                 ^
+tcc.h:1070:13: error: storage class specified for parameter ‘total_lines’
+ ST_DATA int total_lines;
+             ^
+tcc.h:1071:13: error: storage class specified for parameter ‘total_bytes’
+ ST_DATA int total_bytes;
+             ^
+tcc.h:1072:13: error: storage class specified for parameter ‘tok_ident’
+ ST_DATA int tok_ident;
+             ^
+tcc.h:1073:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA TokenSym **table_ident;
+                  ^
+tcc.h:1088:9: error: expected declaration specifiers before ‘TokenSym’
+ ST_FUNC TokenSym *tok_alloc(const char *str, int len);
+         ^
+tcc.h:1089:34: error: expected declaration specifiers or ‘...’ before ‘CValue’
+ ST_FUNC char *get_tok_str(int v, CValue *cv);
+                                  ^
+tcc.h:1090:31: error: expected declaration specifiers or ‘...’ before ‘ParseState’
+ ST_FUNC void save_parse_state(ParseState *s);
+                               ^
+tcc.h:1091:34: error: expected declaration specifiers or ‘...’ before ‘ParseState’
+ ST_FUNC void restore_parse_state(ParseState *s);
+                                  ^
+tcc.h:1092:26: error: expected declaration specifiers or ‘...’ before ‘TokenString’
+ ST_INLN void tok_str_new(TokenString *s);
+                          ^
+tcc.h:1094:26: error: expected declaration specifiers or ‘...’ before ‘TokenString’
+ ST_FUNC void tok_str_add(TokenString *s, int t);
+                          ^
+tcc.h:1095:30: error: expected declaration specifiers or ‘...’ before ‘TokenString’
+ ST_FUNC void tok_str_add_tok(TokenString *s);
+                              ^
+tcc.h:1096:59: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_INLN void define_push(int v, int macro_type, int *str, Sym *first_arg);
+                                                           ^
+tcc.h:1097:27: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void define_undef(Sym *s);
+                           ^
+tcc.h:1098:9: error: expected declaration specifiers before ‘Sym’
+ ST_INLN Sym *define_find(int v);
+         ^
+tcc.h:1099:27: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void free_defines(Sym *b);
+                           ^
+tcc.h:1100:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *label_find(int v);
+         ^
+tcc.h:1101:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *label_push(Sym **ptop, int v, int flags);
+         ^
+tcc.h:1102:24: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void label_pop(Sym **ptop, Sym *slast);
+                        ^
+tcc.h:1102:36: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void label_pop(Sym **ptop, Sym *slast);
+                                    ^
+tcc.h:1108:30: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void preprocess_init(TCCState *s1);
+                              ^
+tcc.h:1110:28: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_preprocess(TCCState *s1);
+                            ^
+tcc.h:1116:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Section *text_section, *data_section, *bss_section; /* predefined sections */
+                 ^
+tcc.h:1117:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Section *cur_text_section; /* current section where function code is generated */
+                 ^
+tcc.h:1119:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Section *last_text_section; /* to handle .previous asm directive */
+                 ^
+tcc.h:1127:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Section *symtab_section, *strtab_section;
+                 ^
+tcc.h:1129:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Section *stab_section, *stabstr_section;
+                 ^
+tcc.h:1132:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Sym *sym_free_first;
+             ^
+tcc.h:1133:16: error: storage class specified for parameter ‘sym_pools’
+ ST_DATA void **sym_pools;
+                ^
+tcc.h:1134:13: error: storage class specified for parameter ‘nb_sym_pools’
+ ST_DATA int nb_sym_pools;
+             ^
+tcc.h:1136:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Sym *global_stack;
+             ^
+tcc.h:1137:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Sym *local_stack;
+             ^
+tcc.h:1138:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Sym *local_label_stack;
+             ^
+tcc.h:1139:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Sym *global_label_stack;
+             ^
+tcc.h:1140:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ ST_DATA Sym *define_stack;
+             ^
+tcc.h:1141:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘char_pointer_type’
+ ST_DATA CType char_pointer_type, func_old_type, int_type, size_type;
+               ^
+tcc.h:1142:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__vstack’
+ ST_DATA SValue __vstack[1+/*to make bcheck happy*/ VSTACK_SIZE], *vtop;
+                ^
+tcc.h:1144:13: error: storage class specified for parameter ‘rsym’
+ ST_DATA int rsym, anon_sym, ind, loc;
+             ^
+tcc.h:1144:19: error: storage class specified for parameter ‘anon_sym’
+ ST_DATA int rsym, anon_sym, ind, loc;
+                   ^
+tcc.h:1144:29: error: storage class specified for parameter ‘ind’
+ ST_DATA int rsym, anon_sym, ind, loc;
+                             ^
+tcc.h:1144:34: error: storage class specified for parameter ‘loc’
+ ST_DATA int rsym, anon_sym, ind, loc;
+                                  ^
+tcc.h:1146:13: error: storage class specified for parameter ‘const_wanted’
+ ST_DATA int const_wanted; /* true if constant wanted */
+             ^
+tcc.h:1147:13: error: storage class specified for parameter ‘nocode_wanted’
+ ST_DATA int nocode_wanted; /* true if no code generation wanted for an expression */
+             ^
+tcc.h:1148:13: error: storage class specified for parameter ‘global_expr’
+ ST_DATA int global_expr;  /* true if compound literals must be allocated globally (used during initializers parsing */
+             ^
+tcc.h:1149:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘func_vt’
+ ST_DATA CType func_vt; /* current function return type (used by return instruction) */
+               ^
+tcc.h:1150:13: error: storage class specified for parameter ‘func_vc’
+ ST_DATA int func_vc;
+             ^
+tcc.h:1151:13: error: storage class specified for parameter ‘last_line_num’
+ ST_DATA int last_line_num, last_ind, func_ind; /* debug last line number and pc */
+             ^
+tcc.h:1151:28: error: storage class specified for parameter ‘last_ind’
+ ST_DATA int last_line_num, last_ind, func_ind; /* debug last line number and pc */
+                            ^
+tcc.h:1151:38: error: storage class specified for parameter ‘func_ind’
+ ST_DATA int last_line_num, last_ind, func_ind; /* debug last line number and pc */
+                                      ^
+tcc.h:1152:15: error: storage class specified for parameter ‘funcname’
+ ST_DATA char *funcname;
+               ^
+tcc.h:1159:9: error: expected declaration specifiers before ‘Sym’
+ ST_FUNC Sym *external_global_sym(int v, CType *type, int r);
+         ^
+tcc.h:1160:19: error: expected declaration specifiers or ‘...’ before ‘CType’
+ ST_FUNC void vset(CType *type, int r, int v);
+                   ^
+tcc.h:1162:31: error: expected declaration specifiers or ‘...’ before ‘CType’
+ ST_FUNC void vpush_global_sym(CType *type, int v);
+                               ^
+tcc.h:1163:20: error: expected declaration specifiers or ‘...’ before ‘SValue’
+ ST_FUNC void vrote(SValue *e, int n);
+                    ^
+tcc.h:1170:21: error: expected declaration specifiers or ‘...’ before ‘SValue’
+ ST_FUNC void vpushv(SValue *v);
+                     ^
+tcc.h:1178:23: error: expected declaration specifiers or ‘...’ before ‘CType’
+ ST_FUNC int type_size(CType *type, int *a);
+                       ^
+tcc.h:1179:25: error: expected declaration specifiers or ‘...’ before ‘CType’
+ ST_FUNC void mk_pointer(CType *type);
+                         ^
+tcc.h:1182:28: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void parse_asm_str(CString *astr);
+                            ^
+tcc.h:1210:3: error: storage class specified for parameter ‘Stab_Sym’
+ } Stab_Sym;
+   ^
+tcc.h:1212:9: error: expected declaration specifiers before ‘Section’
+ ST_FUNC Section *new_symtab(TCCState *s1, const char *symtab_name, int sh_type, int sh_flags, const char *strtab_name, const char *hash_name, int hash_sh_flags);
+         ^
+In file included from tccglue.c:9:0:
+tcc.h:1214:25: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC int put_elf_str(Section *s, const char *sym);
+                         ^
+tcc.h:1215:25: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC int put_elf_sym(Section *s, addr_t value, unsigned long size, int info, int other, int shndx, const char *name);
+                         ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:1215:37: note: in expansion of macro ‘addr_t’
+ ST_FUNC int put_elf_sym(Section *s, addr_t value, unsigned long size, int info, int other, int shndx, const char *name);
+                                     ^
+In file included from tccglue.c:9:0:
+tcc.h:1216:25: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC int add_elf_sym(Section *s, addr_t value, unsigned long size, int info, int other, int sh_num, const char *name);
+                         ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:1216:37: note: in expansion of macro ‘addr_t’
+ ST_FUNC int add_elf_sym(Section *s, addr_t value, unsigned long size, int info, int other, int sh_num, const char *name);
+                                     ^
+In file included from tccglue.c:9:0:
+tcc.h:1217:26: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC int find_elf_sym(Section *s, const char *name);
+                          ^
+tcc.h:1218:28: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void put_elf_reloc(Section *symtab, Section *s, unsigned long offset, int type, int symbol);
+                            ^
+tcc.h:1218:45: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void put_elf_reloc(Section *symtab, Section *s, unsigned long offset, int type, int symbol);
+                                             ^
+tcc.h:1221:95: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void put_stabs_r(const char *str, int type, int other, int desc, unsigned long value, Section *sec, int sym_index);
+                                                                                               ^
+tcc.h:1226:28: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void relocate_syms(TCCState *s1, int do_resolve);
+                            ^
+tcc.h:1227:31: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void relocate_section(TCCState *s1, Section *s);
+                               ^
+tcc.h:1227:45: error: expected declaration specifiers or ‘...’ before ‘Section’
+ ST_FUNC void relocate_section(TCCState *s1, Section *s);
+                                             ^
+tcc.h:1229:37: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void tcc_add_linker_symbols(TCCState *s1);
+                                     ^
+tcc.h:1230:34: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_load_object_file(TCCState *s1, int fd, unsigned long file_offset);
+                                  ^
+tcc.h:1231:30: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_load_archive(TCCState *s1, int fd);
+                              ^
+tcc.h:1232:29: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void tcc_add_bcheck(TCCState *s1);
+                             ^
+tcc.h:1234:32: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void build_got_entries(TCCState *s1);
+                                ^
+tcc.h:1235:30: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void tcc_add_runtime(TCCState *s1);
+                              ^
+In file included from tccglue.c:9:0:
+tcc.h:79:21: error: unknown type name ‘Elf64_Addr’
+ # define ElfW(type) Elf##64##_##type
+                     ^
+tcc.h:96:16: note: in expansion of macro ‘ElfW’
+ #define addr_t ElfW(Addr)
+                ^
+tcc.h:1237:9: note: in expansion of macro ‘addr_t’
+ ST_FUNC addr_t get_elf_sym_addr(TCCState *s, const char *name, int err);
+         ^
+In file included from tccglue.c:9:0:
+tcc.h:1237:33: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC addr_t get_elf_sym_addr(TCCState *s, const char *name, int err);
+                                 ^
+tcc.h:1239:34: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void *tcc_get_symbol_err(TCCState *s, const char *name);
+                                  ^
+tcc.h:1243:26: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_load_dll(TCCState *s1, int fd, const char *filename, int level);
+                          ^
+tcc.h:1244:31: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_load_ldscript(TCCState *s1);
+                               ^
+tcc.h:1245:9: error: expected declaration specifiers before ‘uint8_t’
+ ST_FUNC uint8_t *parse_comment(uint8_t *p);
+         ^
+tcc.h:1254:19: error: storage class specified for parameter ‘reg_classes’
+ ST_DATA const int reg_classes[NB_REGS+7];
+                   ^
+tcc.h:1261:26: error: expected declaration specifiers or ‘...’ before ‘SValue’
+ ST_FUNC void load(int r, SValue *sv);
+                          ^
+tcc.h:1262:27: error: expected declaration specifiers or ‘...’ before ‘SValue’
+ ST_FUNC void store(int r, SValue *v);
+                           ^
+tcc.h:1264:27: error: expected declaration specifiers or ‘...’ before ‘CType’
+ ST_FUNC void gfunc_prolog(CType *func_type);
+                           ^
+tcc.h:1287:32: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void gen_addr32(int r, Sym *sym, int c);
+                                ^
+tcc.h:1288:34: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void gen_addrpc32(int r, Sym *sym, int c);
+                                  ^
+tcc.h:1298:32: error: expected declaration specifiers or ‘...’ before ‘Sym’
+ ST_FUNC void gen_addr64(int r, Sym *sym, int64_t c);
+                                ^
+tcc.h:1298:42: error: expected declaration specifiers or ‘...’ before ‘int64_t’
+ ST_FUNC void gen_addr64(int r, Sym *sym, int64_t c);
+                                          ^
+tcc.h:1324:29: error: expected declaration specifiers or ‘...’ before ‘ASMOperand’
+ ST_FUNC int find_constraint(ASMOperand *operands, int nb_operands, const char *name, const char **pp);
+                             ^
+tcc.h:1325:23: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void asm_expr(TCCState *s1, ExprValue *pe);
+                       ^
+tcc.h:1325:37: error: expected declaration specifiers or ‘...’ before ‘ExprValue’
+ ST_FUNC void asm_expr(TCCState *s1, ExprValue *pe);
+                                     ^
+tcc.h:1326:26: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int asm_int_expr(TCCState *s1);
+                          ^
+tcc.h:1327:26: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC int tcc_assemble(TCCState *s1, int do_preprocess);
+                          ^
+tcc.h:1329:25: error: expected declaration specifiers or ‘...’ before ‘ExprValue’
+ ST_FUNC void gen_expr32(ExprValue *pe);
+                         ^
+tcc.h:1330:25: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void asm_opcode(TCCState *s1, int opcode);
+                         ^
+tcc.h:1331:38: error: expected declaration specifiers or ‘...’ before ‘ASMOperand’
+ ST_FUNC void asm_compute_constraints(ASMOperand *operands, int nb_operands, int nb_outputs, const uint8_t *clobber_regs, int *pout_reg);
+                                      ^
+tcc.h:1331:99: warning: type defaults to ‘int’ in declaration of ‘uint8_t’ [-Wimplicit-int]
+ ST_FUNC void asm_compute_constraints(ASMOperand *operands, int nb_operands, int nb_outputs, const uint8_t *clobber_regs, int *pout_reg);
+                                                                                                   ^
+tcc.h:1331:107: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+ ST_FUNC void asm_compute_constraints(ASMOperand *operands, int nb_operands, int nb_outputs, const uint8_t *clobber_regs, int *pout_reg);
+                                                                                                           ^
+tcc.h:1332:32: error: expected declaration specifiers or ‘...’ before ‘CString’
+ ST_FUNC void subst_asm_operand(CString *add_str, SValue *sv, int modifier);
+                                ^
+tcc.h:1332:50: error: expected declaration specifiers or ‘...’ before ‘SValue’
+ ST_FUNC void subst_asm_operand(CString *add_str, SValue *sv, int modifier);
+                                                  ^
+tcc.h:1333:27: error: expected declaration specifiers or ‘...’ before ‘ASMOperand’
+ ST_FUNC void asm_gen_code(ASMOperand *operands, int nb_operands, int nb_outputs, int is_output, uint8_t *clobber_regs, int out_reg);
+                           ^
+tcc.h:1333:97: error: expected declaration specifiers or ‘...’ before ‘uint8_t’
+ ST_FUNC void asm_gen_code(ASMOperand *operands, int nb_operands, int nb_outputs, int is_output, uint8_t *clobber_regs, int out_reg);
+                                                                                                 ^
+tcc.h:1334:26: error: expected declaration specifiers or ‘...’ before ‘uint8_t’
+ ST_FUNC void asm_clobber(uint8_t *clobber_regs, const char *str);
+                          ^
+tcc.h:1359:27: error: expected declaration specifiers or ‘...’ before ‘TCCState’
+ ST_FUNC void *resolve_sym(TCCState *s1, const char *symbol);
+                           ^
+tcc.h:1365:13: error: storage class specified for parameter ‘rt_num_callers’
+ ST_DATA int rt_num_callers;
+             ^
+tcc.h:1366:22: error: storage class specified for parameter ‘rt_bound_error_msg’
+ ST_DATA const char **rt_bound_error_msg;
+                      ^
+tcc.h:1367:15: error: storage class specified for parameter ‘rt_prog_main’
+ ST_DATA void *rt_prog_main;
+               ^
+tccglue.c:12:54: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int tcc_read(int fd, unsigned char *buffer, int len) {
+                                                      ^
+tccglue.c:17:42: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int lseek(int fd, long Offset, int sset) {
+                                          ^
+In file included from tcc.h:32:0,
+                 from tccglue.c:9:
+tccglue.h:39:6: error: old-style parameter declarations in prototyped function definition
+ void nk_tcc_mem_cpy(void* dest, void* src, size_t n)；
+      ^
+tccglue.c:20:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from /mnt/hgfs/nau_test/include/acpi/platform/acnautilus.h:57:0,
+                 from tccglue.h:18,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+tccglue.c: At top level:
+/mnt/hgfs/nau_test/include/nautilus/thread.h:193:21: warning: inline function ‘nk_dequeue_thread_from_runq’ declared but never defined
+ inline nk_thread_t* nk_dequeue_thread_from_runq(nk_thread_t * t);
+                     ^
+/mnt/hgfs/nau_test/include/nautilus/thread.h:192:13: warning: inline function ‘nk_enqueue_thread_on_runq’ declared but never defined
+ inline void nk_enqueue_thread_on_runq(nk_thread_t * t, int cpu);
+             ^
+In file included from /mnt/hgfs/nau_test/include/nautilus/spinlock.h:34:0,
+                 from /mnt/hgfs/nau_test/include/nautilus/smp.h:43,
+                 from /mnt/hgfs/nau_test/include/nautilus/percpu.h:125,
+                 from /mnt/hgfs/nau_test/include/nautilus/nautilus.h:26,
+                 from /mnt/hgfs/nau_test/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/cpu.h:355:13: warning: ‘udelay’ defined but not used [-Wunused-function]
+ static void udelay(uint_t n) {
+             ^
+In file included from /mnt/hgfs/nau_test/include/nautilus/smp.h:45:0,
+                 from /mnt/hgfs/nau_test/include/nautilus/percpu.h:125,
+                 from /mnt/hgfs/nau_test/include/nautilus/nautilus.h:26,
+                 from /mnt/hgfs/nau_test/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/queue.h:69:1: warning: ‘nk_enqueue_entry_atomic’ defined but not used [-Wunused-function]
+ nk_enqueue_entry_atomic (nk_queue_t * q, nk_queue_entry_t * entry)
+ ^
+In file included from /mnt/hgfs/nau_test/include/nautilus/nautilus.h:53:0,
+                 from /mnt/hgfs/nau_test/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:32,
+                 from tccglue.c:9:
+/mnt/hgfs/nau_test/include/nautilus/paging.h:241:1: warning: ‘va_to_pa’ defined but not used [-Wunused-function]
+ va_to_pa (addr_t vaddr) 
+ ^
+/mnt/hgfs/nau_test/include/nautilus/paging.h:247:1: warning: ‘pa_to_va’ defined but not used [-Wunused-function]
+ pa_to_va (addr_t paddr)
+ ^
+make: *** [tccglue.o] Error 1

@@ -1,0 +1,19 @@
+CC = gcc
+AR = ar
+CFLAGS = -DNAUT_CONFIG_USE_NAUT_BUILTINS -DCONFIG_TCC_STATIC -I. -I/mnt/hgfs/nau_test/include -Wall -fno-builtin -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Wno-format-security -fno-delete-null-pointer-checks -Os -m64 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -fstack-protector -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -Wframe-larger-than=2048 -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack
+
+.PHONY: depend clean
+SRCS = tccglue.c libtcc.c tccpp.c tccgen.c tccelf.c tccasm.c tccrun.c x86_64-gen.c i386-asm.c tcc_service.c
+OBJS = $(SRCS:.c=.o)
+LIBTCC = libtcc.a
+
+
+all: $(OBJS) $(LIBTCC)
+
+%.o: %.c
+	  $(CC) $(CFLAGS) -o $@ -c $^
+$(LIBTCC): $(OBJS)
+	$(AR) rcs $@ $^
+
+clean:
+	$(RM) $(OBJS) $(LIBTCC)

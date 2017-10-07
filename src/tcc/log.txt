@@ -1,0 +1,318 @@
+In file included from tccglue.h:13:0,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/mm.h:97:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void kmem_dump_my_view();
+ ^
+In file included from /home/lhp/nautilus/include/nautilus/vc.h:31:0,
+                 from /home/lhp/nautilus/include/nautilus/nautilus.h:32,
+                 from /home/lhp/nautilus/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/dev/kbd.h:105:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int kbd_reset();
+ ^
+/home/lhp/nautilus/include/dev/kbd.h:106:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int kbd_deinit();
+ ^
+In file included from /home/lhp/nautilus/include/nautilus/nautilus.h:32:0,
+                 from /home/lhp/nautilus/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/vc.h:49:8: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ struct nk_virtual_console * nk_get_cur_vc();
+        ^
+/home/lhp/nautilus/include/nautilus/vc.h:86:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int nk_vc_getchar();
+ ^
+In file included from tccglue.h:17:0,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/fs.h:76:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int nk_fs_init();
+ ^
+/home/lhp/nautilus/include/nautilus/fs.h:77:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int nk_fs_deinit();
+ ^
+/home/lhp/nautilus/include/nautilus/fs.h:84:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void nk_fs_dump_filesystems();
+ ^
+/home/lhp/nautilus/include/nautilus/fs.h:85:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void nk_fs_dump_files();
+ ^
+In file included from /home/lhp/nautilus/include/nautilus/thread.h:35:0,
+                 from /home/lhp/nautilus/include/acpi/platform/acnautilus.h:57,
+                 from tccglue.h:18,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/scheduler.h:136:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void    nk_sched_sleep();
+ ^
+/home/lhp/nautilus/include/nautilus/scheduler.h:144:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void    nk_sched_exit();
+ ^
+/home/lhp/nautilus/include/nautilus/scheduler.h:147:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void    nk_sched_reap();
+ ^
+/home/lhp/nautilus/include/nautilus/scheduler.h:150:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ uint64_t nk_sched_get_realtime();
+ ^
+In file included from /home/lhp/nautilus/include/acpi/platform/acnautilus.h:57:0,
+                 from tccglue.h:18,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/thread.h:82:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ void nk_yield();
+ ^
+In file included from tccglue.h:18:0,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/acpi/platform/acnautilus.h:51:37: warning: "ACPI_BINARY_SEMAPHORE" is not defined [-Wundef]
+ #define ACPI_MUTEX_TYPE             ACPI_BINARY_SEMAPHORE
+                                     ^
+/home/lhp/nautilus/include/acpi/actypes.h:242:6: note: in expansion of macro ‘ACPI_MUTEX_TYPE’
+ #if (ACPI_MUTEX_TYPE == ACPI_BINARY_SEMAPHORE)
+      ^
+In file included from /home/lhp/nautilus/include/acpi/platform/acnautilus.h:77:0,
+                 from tccglue.h:18,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/acpi/actypes.h:242:25: warning: "ACPI_BINARY_SEMAPHORE" is not defined [-Wundef]
+ #if (ACPI_MUTEX_TYPE == ACPI_BINARY_SEMAPHORE)
+                         ^
+In file included from tcc.h:21:0,
+                 from tccglue.c:9:
+tccglue.h:29:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef int (*main_func)();
+ ^
+tccglue.c:10:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ typedef int (*main_func)();
+ ^
+tccglue.c: In function ‘handle_tcc_script’:
+tccglue.c:19:2: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+  int (*func)();
+  ^
+In file included from /home/lhp/nautilus/include/acpi/platform/acnautilus.h:57:0,
+                 from tccglue.h:18,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+tccglue.c: At top level:
+/home/lhp/nautilus/include/nautilus/thread.h:193:21: warning: inline function ‘nk_dequeue_thread_from_runq’ declared but never defined
+ inline nk_thread_t* nk_dequeue_thread_from_runq(nk_thread_t * t);
+                     ^
+/home/lhp/nautilus/include/nautilus/thread.h:192:13: warning: inline function ‘nk_enqueue_thread_on_runq’ declared but never defined
+ inline void nk_enqueue_thread_on_runq(nk_thread_t * t, int cpu);
+             ^
+In file included from /home/lhp/nautilus/include/nautilus/spinlock.h:34:0,
+                 from /home/lhp/nautilus/include/nautilus/smp.h:43,
+                 from /home/lhp/nautilus/include/nautilus/percpu.h:125,
+                 from /home/lhp/nautilus/include/nautilus/nautilus.h:27,
+                 from /home/lhp/nautilus/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/cpu.h:355:13: warning: ‘udelay’ defined but not used [-Wunused-function]
+ static void udelay(uint_t n) {
+             ^
+In file included from /home/lhp/nautilus/include/nautilus/smp.h:45:0,
+                 from /home/lhp/nautilus/include/nautilus/percpu.h:125,
+                 from /home/lhp/nautilus/include/nautilus/nautilus.h:27,
+                 from /home/lhp/nautilus/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/queue.h:69:1: warning: ‘nk_enqueue_entry_atomic’ defined but not used [-Wunused-function]
+ nk_enqueue_entry_atomic (nk_queue_t * q, nk_queue_entry_t * entry)
+ ^
+In file included from /home/lhp/nautilus/include/nautilus/nautilus.h:54:0,
+                 from /home/lhp/nautilus/include/nautilus/libccompat.h:30,
+                 from tccglue.h:15,
+                 from tcc.h:21,
+                 from tccglue.c:9:
+/home/lhp/nautilus/include/nautilus/paging.h:241:1: warning: ‘va_to_pa’ defined but not used [-Wunused-function]
+ va_to_pa (addr_t vaddr) 
+ ^
+/home/lhp/nautilus/include/nautilus/paging.h:247:1: warning: ‘pa_to_va’ defined but not used [-Wunused-function]
+ pa_to_va (addr_t paddr)
+ ^
+libtcc.a(libtcc.o):(.bss+0x8): multiple definition of `errno'
+/tmp/ccG6GSk3.o:(.bss+0x0): first defined here
+libtcc.a(tccpp.o):(.bss+0x78): multiple definition of `errno'
+/tmp/ccG6GSk3.o:/home/lhp/nautilus/src/tcc/tccglue.c:12: first defined here
+libtcc.a(tccgen.o):(.bss+0x4190): multiple definition of `errno'
+/tmp/ccG6GSk3.o:/home/lhp/nautilus/src/tcc/tccglue.c:12: first defined here
+libtcc.a(tccelf.o):(.bss+0x0): multiple definition of `errno'
+/tmp/ccG6GSk3.o:/home/lhp/nautilus/src/tcc/tccglue.c:12: first defined here
+libtcc.a(tccasm.o):(.bss+0x0): multiple definition of `errno'
+/tmp/ccG6GSk3.o:/home/lhp/nautilus/src/tcc/tccglue.c:12: first defined here
+libtcc.a(i386-asm.o):(.bss+0x0): multiple definition of `errno'
+/tmp/ccG6GSk3.o:/home/lhp/nautilus/src/tcc/tccglue.c:12: first defined here
+/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/gcrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+/tmp/ccG6GSk3.o: In function `handle_tcc_script':
+/home/lhp/nautilus/src/tcc/tccglue.c:35: undefined reference to `tcc_relocate'
+/home/lhp/nautilus/src/tcc/tccglue.c:36: undefined reference to `nk_vc_printf'
+/home/lhp/nautilus/src/tcc/tccglue.c:42: undefined reference to `nk_vc_printf'
+libtcc.a(libtcc.o): In function `tcc_add_library_internal':
+/home/lhp/nautilus/src/tcc/libtcc.c:1243: undefined reference to `tcc_add_file_internal'
+libtcc.a(libtcc.o): In function `tcc_set_linker':
+/home/lhp/nautilus/src/tcc/libtcc.c:1552: undefined reference to `simple_strtoul'
+libtcc.a(libtcc.o): In function `tcc_delete':
+/home/lhp/nautilus/src/tcc/libtcc.c:1049: undefined reference to `dlclose'
+libtcc.a(libtcc.o): In function `tcc_add_file':
+/home/lhp/nautilus/src/tcc/libtcc.c:1226: undefined reference to `tcc_add_file_internal'
+libtcc.a(tccgen.o): In function `vpop':
+/home/lhp/nautilus/src/tcc/tccgen.c:1014: undefined reference to `o'
+/home/lhp/nautilus/src/tcc/tccgen.c:1019: undefined reference to `gsym'
+libtcc.a(tccgen.o): In function `save_reg':
+/home/lhp/nautilus/src/tcc/tccgen.c:520: undefined reference to `store'
+/home/lhp/nautilus/src/tcc/tccgen.c:524: undefined reference to `o'
+/home/lhp/nautilus/src/tcc/tccgen.c:531: undefined reference to `store'
+libtcc.a(tccgen.o): In function `get_reg':
+/home/lhp/nautilus/src/tcc/tccgen.c:585: undefined reference to `reg_classes'
+/home/lhp/nautilus/src/tcc/tccgen.c:602: undefined reference to `reg_classes'
+/home/lhp/nautilus/src/tcc/tccgen.c:605: undefined reference to `reg_classes'
+libtcc.a(tccgen.o): In function `move_reg':
+/home/lhp/nautilus/src/tcc/tccgen.c:640: undefined reference to `load'
+libtcc.a(tccgen.o): In function `gen_cast':
+/home/lhp/nautilus/src/tcc/tccgen.c:1923: undefined reference to `gen_cvt_ftof'
+libtcc.a(tccgen.o): In function `gen_cvt_itof1':
+/home/lhp/nautilus/src/tcc/tccgen.c:1769: undefined reference to `gfunc_call'
+/home/lhp/nautilus/src/tcc/tccgen.c:1773: undefined reference to `gen_cvt_itof'
+libtcc.a(tccgen.o): In function `gen_cvt_ftoi1':
+/home/lhp/nautilus/src/tcc/tccgen.c:1800: undefined reference to `gen_cvt_ftoi'
+/home/lhp/nautilus/src/tcc/tccgen.c:1795: undefined reference to `gfunc_call'
+/home/lhp/nautilus/src/tcc/tccgen.c:1800: undefined reference to `gen_cvt_ftoi'
+/home/lhp/nautilus/src/tcc/tccgen.c:1800: undefined reference to `gen_cvt_ftoi'
+libtcc.a(tccgen.o): In function `gv':
+/home/lhp/nautilus/src/tcc/tccgen.c:779: undefined reference to `reg_classes'
+/home/lhp/nautilus/src/tcc/tccgen.c:781: undefined reference to `reg_classes'
+/home/lhp/nautilus/src/tcc/tccgen.c:796: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/tccgen.c:807: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/tccgen.c:818: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/tccgen.c:826: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/tccgen.c:846: undefined reference to `load'
+libtcc.a(tccgen.o):/home/lhp/nautilus/src/tcc/tccgen.c:851: more undefined references to `load' follow
+libtcc.a(tccgen.o): In function `init_putz':
+/home/lhp/nautilus/src/tcc/tccgen.c:4945: undefined reference to `gfunc_call'
+libtcc.a(tccgen.o): In function `gbound':
+/home/lhp/nautilus/src/tcc/tccgen.c:675: undefined reference to `gen_bounded_ptr_add'
+/home/lhp/nautilus/src/tcc/tccgen.c:680: undefined reference to `gen_bounded_ptr_deref'
+libtcc.a(tccgen.o): In function `gv_dup':
+/home/lhp/nautilus/src/tcc/tccgen.c:1063: undefined reference to `load'
+libtcc.a(tccgen.o): In function `gen_opl':
+/home/lhp/nautilus/src/tcc/tccgen.c:1103: undefined reference to `gfunc_call'
+/home/lhp/nautilus/src/tcc/tccgen.c:1269: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:1275: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:1278: undefined reference to `oad'
+/home/lhp/nautilus/src/tcc/tccgen.c:1300: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:1301: undefined reference to `gsym'
+libtcc.a(tccgen.o): In function `gen_opic':
+/home/lhp/nautilus/src/tcc/tccgen.c:1439: undefined reference to `gen_opi'
+libtcc.a(tccgen.o): In function `gen_op':
+/home/lhp/nautilus/src/tcc/tccgen.c:1667: undefined reference to `gen_bounded_ptr_add'
+libtcc.a(tccgen.o): In function `gen_opif':
+/home/lhp/nautilus/src/tcc/tccgen.c:1504: undefined reference to `gen_opf'
+libtcc.a(tccgen.o): In function `vstore':
+/home/lhp/nautilus/src/tcc/tccgen.c:2410: undefined reference to `gfunc_call'
+/home/lhp/nautilus/src/tcc/tccgen.c:2494: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/tccgen.c:2497: undefined reference to `store'
+/home/lhp/nautilus/src/tcc/tccgen.c:2510: undefined reference to `store'
+libtcc.a(tccgen.o): In function `block':
+/home/lhp/nautilus/src/tcc/tccgen.c:4386: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4391: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4392: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4593: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4600: undefined reference to `gsym_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4396: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4403: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4406: undefined reference to `gjmp_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4407: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4408: undefined reference to `gsym_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4511: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4516: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4523: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4549: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4553: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4557: undefined reference to `gjmp_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4558: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4562: undefined reference to `gjmp_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4563: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4564: undefined reference to `gsym_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4576: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4578: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4579: undefined reference to `gsym_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4581: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4618: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4619: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4627: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4631: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4633: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4657: undefined reference to `ggoto'
+/home/lhp/nautilus/src/tcc/tccgen.c:4669: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4671: undefined reference to `gjmp_addr'
+/home/lhp/nautilus/src/tcc/tccgen.c:4687: undefined reference to `gsym'
+libtcc.a(tccgen.o): In function `unary':
+/home/lhp/nautilus/src/tcc/tccgen.c:3597: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:3915: undefined reference to `gfunc_call'
+libtcc.a(tccgen.o): In function `expr_land':
+/home/lhp/nautilus/src/tcc/tccgen.c:4056: undefined reference to `gtst'
+libtcc.a(tccgen.o): In function `expr_lor':
+/home/lhp/nautilus/src/tcc/tccgen.c:4076: undefined reference to `gtst'
+libtcc.a(tccgen.o): In function `expr_cond':
+/home/lhp/nautilus/src/tcc/tccgen.c:4138: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4140: undefined reference to `gtst'
+/home/lhp/nautilus/src/tcc/tccgen.c:4147: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4148: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4222: undefined reference to `gjmp'
+/home/lhp/nautilus/src/tcc/tccgen.c:4223: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:4232: undefined reference to `gsym'
+libtcc.a(tccgen.o): In function `decl_initializer':
+/home/lhp/nautilus/src/tcc/tccgen.c:4969: undefined reference to `gfunc_call'
+libtcc.a(tccgen.o): In function `gen_function':
+/home/lhp/nautilus/src/tcc/tccgen.c:5527: undefined reference to `gfunc_prolog'
+/home/lhp/nautilus/src/tcc/tccgen.c:5530: undefined reference to `gsym'
+/home/lhp/nautilus/src/tcc/tccgen.c:5531: undefined reference to `gfunc_epilog'
+libtcc.a(tccelf.o): In function `ld_add_file':
+/home/lhp/nautilus/src/tcc/tccelf.c:2998: undefined reference to `tcc_add_file_internal'
+libtcc.a(tccasm.o): In function `asm_expr_unary':
+/home/lhp/nautilus/src/tcc/tccasm.c:48: undefined reference to `simple_strtoul'
+libtcc.a(tccasm.o): In function `asm_parse_directive':
+/home/lhp/nautilus/src/tcc/tccasm.c:384: undefined reference to `gen_le32'
+/home/lhp/nautilus/src/tcc/tccasm.c:385: undefined reference to `gen_le32'
+/home/lhp/nautilus/src/tcc/tccasm.c:416: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/tccasm.c:418: undefined reference to `gen_le16'
+/home/lhp/nautilus/src/tcc/tccasm.c:465: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/tccasm.c:519: undefined reference to `g'
+libtcc.a(tccasm.o): In function `tcc_assemble_internal':
+/home/lhp/nautilus/src/tcc/tccasm.c:757: undefined reference to `simple_strtoul'
+libtcc.a(i386-asm.o): In function `gen_expr32':
+/home/lhp/nautilus/src/tcc/i386-asm.c:420: undefined reference to `gen_addr32'
+libtcc.a(i386-asm.o): In function `asm_opcode':
+/home/lhp/nautilus/src/tcc/i386-asm.c:771: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/i386-asm.c:784: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/i386-asm.c:786: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/i386-asm.c:858: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/i386-asm.c:859: undefined reference to `g'
+libtcc.a(i386-asm.o):/home/lhp/nautilus/src/tcc/i386-asm.c:496: more undefined references to `g' follow
+libtcc.a(i386-asm.o): In function `asm_opcode':
+/home/lhp/nautilus/src/tcc/i386-asm.c:916: undefined reference to `gen_le16'
+/home/lhp/nautilus/src/tcc/i386-asm.c:949: undefined reference to `gen_le16'
+/home/lhp/nautilus/src/tcc/i386-asm.c:953: undefined reference to `g'
+libtcc.a(i386-asm.o): In function `gen_disp32':
+/home/lhp/nautilus/src/tcc/i386-asm.c:439: undefined reference to `gen_le32'
+/home/lhp/nautilus/src/tcc/i386-asm.c:445: undefined reference to `gen_addrpc32'
+libtcc.a(i386-asm.o): In function `asm_opcode':
+/home/lhp/nautilus/src/tcc/i386-asm.c:715: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/i386-asm.c:716: undefined reference to `g'
+libtcc.a(i386-asm.o): In function `asm_gen_code':
+/home/lhp/nautilus/src/tcc/i386-asm.c:1408: undefined reference to `g'
+/home/lhp/nautilus/src/tcc/i386-asm.c:1426: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/i386-asm.c:1431: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/i386-asm.c:1446: undefined reference to `load'
+/home/lhp/nautilus/src/tcc/i386-asm.c:1452: undefined reference to `store'
+/home/lhp/nautilus/src/tcc/i386-asm.c:1457: undefined reference to `store'
+/home/lhp/nautilus/src/tcc/i386-asm.c:1470: undefined reference to `g'
+collect2: error: ld returned 1 exit status

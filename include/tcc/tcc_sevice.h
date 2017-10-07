@@ -1,0 +1,1 @@
+main_func handle_tcc_script(char *tcc_program);
